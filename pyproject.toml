@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "actions_demo"
+version = "0.1.0"
+description = "Demo library for GitHub Actions"
+authors = [
+    { name="Egor Morgunov" }
+]
+
+[tool.setuptools]
+packages = ["src"]
